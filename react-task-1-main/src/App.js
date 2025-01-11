@@ -21,6 +21,7 @@ function App() {
 
   return (
 
+    <Router basename='/krowd_assignment'>
  
     <div>
       <div class='head'>
@@ -30,6 +31,7 @@ function App() {
       <p class='item1'>Item List</p>
       <div><ParentComponent /></div>
     </div>
+    </Router>
   )
 
 }
